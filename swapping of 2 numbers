@@ -1,0 +1,19 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // swapping of 2 numbers with one extra variable
+    int a,b,c;
+    printf("enter a  ");
+    scanf("%d",&a);
+    printf("enter b  ");
+    scanf("%d",&b);
+    c=a;
+    a=b;
+    b=c;
+
+    printf("value of a is    %d \n",a);
+    printf("value of b is    %d \n",b);
+
+    return 0;
+}
