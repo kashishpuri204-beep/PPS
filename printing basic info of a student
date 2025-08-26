@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    char name[20];
+    int age;
+    char course[10];
+    printf("enter your name   ");
+    scanf("%s",&name);
+    printf("enter your age ");
+    scanf("%d",&age);
+    printf("enter your course  ");
+    scanf("%s",&course);
+    printf("name : %s\n",name);
+    printf("age : %d\n",age);
+    printf("course : %s\n",course);
+    
+    
+
+    return 0;
+}
